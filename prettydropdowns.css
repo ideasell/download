@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0;}
+.prettydropdown{position: relative;}
+.prettydropdown > ul{position: absolute; top: 0; left: 0; }
+.prettydropdown:not(.disabled) > ul.active{max-height: none !important; overflow-x: hidden;}
+.prettydropdown > ul > li{display: none;}
+.prettydropdown > ul > li:first-child, .prettydropdown > ul.active > li{display: block;}
+.checked{display: none;}
